@@ -2,15 +2,15 @@
 
 int main()
 {
-	int a, b, c, c1, c2, c3;
+	float a, b, c, c1, c2, c3;
 	
 	printf("Este programa suma, resta, multiplica y divide 2 numeros \n");
 	
 	printf("Ingresa el primer numero : \n");
-	scanf("%d",&a);
+	scanf("%f",&a);
 	
 	printf("Ingresa el segundo numero : \n");
-	scanf("%d",&b);
+	scanf("%f",&b);
 	
 	c=a+b;
 	c1=a-b;
@@ -23,14 +23,12 @@ int main()
 	else
 	{
 		c3=a/b;
-		printf("\n El resultado de la division es: %d ",c3);
+		printf("\n El resultado de la division es: %.2f ",c3);
 	}
 	
-	printf("\n El resultado de la suma es: %d ",c);
-	printf("\n El resultado de la resta es: %d ",c1);
-	printf("\n El resultado de la multiplicacion es: %d ",c2);
+	printf("\n El resultado de la suma es: %.2f ",c);
+	printf("\n El resultado de la resta es: %.2f ",c1);
+	printf("\n El resultado de la multiplicacion es: %.2f ",c2);
 	
 	return 0;
 }
-	
-	
