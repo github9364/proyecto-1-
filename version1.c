@@ -2,26 +2,25 @@
 
 int main()
 {
-	int a, b, c, c1;
+	int a,b;
+	int sum,rest,mult,div;
 	
-
-	
-	printf("Este programa suma, resta \n");
-	
-	printf("Ingresa el primer numero : \n");
+	printf("ingrese el primer valor (entero): \n");
 	scanf("%d",&a);
 	
-	printf("Ingresa el segundo numero : \n");
+	printf("ingrese el segundo valor (entero): \n");
 	scanf("%d",&b);
 	
-	c=a+b;
-	c1=a-b;
+	sum= a+b;
+	rest= a-b;
+	mult= a*b;
+	div= a/b;
+	
+	printf("el resultado de la suma es: %d \n",sum);
+	printf("el resultado de la resta es: %d \n",rest);
+	printf("el resultado de la multiplicacion es: %d \n",mult);
+	printf("el resultado de la division es: %d \n",div);
 	
 	
-
-
-	printf("\n El resultado de la suma es: %d ",c);
-	printf("\n El resultado de la resta es: %d ",c1);
-
 	return 0;
 }
